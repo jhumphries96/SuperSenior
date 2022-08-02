@@ -30,3 +30,8 @@ bio = "Guitar; music; software"
   #   { medium = "https://medium.com/username" },
   #   { youtube = "https://youtube.com/username" },
   # ]
+
+[band]
+name = "Super Senior"
+image = "img/cover.jpg"
+headline = "Loans, Lost Friends, and Shut Ins"
