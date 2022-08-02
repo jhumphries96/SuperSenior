@@ -13,10 +13,10 @@ title = "Super Senior"
 dateFormat = "2 August 2022"
 
 [author]
-name = "John Humphries"
-image = "img/author.jpg"
-headline = "Amateur Everything"
-bio = "Guitar; music; software"
+ name = "John Humphries"
+ image = "img/author.jpg"
+ headline = "Amateur Everything"
+ bio = "Guitar; music; software"
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
@@ -32,6 +32,6 @@ bio = "Guitar; music; software"
   # ]
 
 [band]
-name = "Super Senior"
-image = "img/cover.jpg"
-headline = "Loans, Lost Friends, and Shut Ins"
+ name = "Super Senior"
+ image = "img/cover.jpg"
+ headline = "Loans, Lost Friends, and Shut Ins"
