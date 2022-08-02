@@ -30,8 +30,3 @@ dateFormat = "2 August 2022"
   #   { medium = "https://medium.com/username" },
   #   { youtube = "https://youtube.com/username" },
   # ]
-
-[params]
-  bandName = "Super Senior"
-  bandImage = "img/cover.jpg"
-  bandAlbum = "Loans, Lost Friends, and Shut Ins"

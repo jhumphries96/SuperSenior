@@ -8,7 +8,6 @@
 colorScheme = "congo"
 defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = false
-
 enableSearch = false
 enableCodeCopy = false
 
@@ -16,13 +15,13 @@ enableCodeCopy = false
 # robots = ""
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, custom
+  layout = "custom" # valid options: basic, hamburger, custom
 
 [footer]
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = false
-  showScrollToTop = true
+  showScrollToTop = false
 
 [homepage]
   layout = "custom" # valid options: page, profile, custom
@@ -68,3 +67,8 @@ enableCodeCopy = false
   # bing = ""
   # pinterest = ""
   # yandex = ""
+
+[band]
+  name = "Super Senior"
+  image = "img/cover.jpg"
+  album = "Loans, Lost Friends, and Shut Ins"
