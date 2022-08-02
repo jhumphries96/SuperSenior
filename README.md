@@ -1,2 +1,0 @@
-# SuperSenior
-SuperSenior Website
