@@ -31,7 +31,7 @@ dateFormat = "2 August 2022"
   #   { youtube = "https://youtube.com/username" },
   # ]
 
-[band]
- name = "Super Senior"
- image = "img/cover.jpg"
- headline = "Loans, Lost Friends, and Shut Ins"
+[params]
+  bandName = "Super Senior"
+  bandImage = "img/cover.jpg"
+  bandAlbum = "Loans, Lost Friends, and Shut Ins"

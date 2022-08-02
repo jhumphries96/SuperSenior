@@ -2,7 +2,7 @@
   class="flex flex-col items-center justify-center text-center h-full"
 >
   <header class="flex flex-col items-center mb-3">
-    {{ with .Site.Band.image }}
+    {{ with .Site.Params.bandImage }}
       {{ $bandImage := resources.Get . }}
       {{ if $bandImage }}
         {{ $bandImage := $bandImage.Fill "288x288" }}
@@ -10,22 +10,19 @@
           class="mb-2 rounded-full w-36 h-36"
           width="144"
           height="144"
-          alt="{{ $.Site.Band.name | default "Band" }}"
+          alt="{{ $.Site.Params.bandName | default "Band" }}"
           src="{{ $bandImage.RelPermalink }}"
         />
       {{ end }}
     {{ end }}
     <h1 class="text-4xl font-extrabold">
-      {{ .Site.Band.name | default .Site.Title }}
+      {{ .Site.Params.bandName | default .Site.Title }}
     </h1>
-    {{ with .Site.Band.headline }}
+    {{ with .Site.Params.bandAlbum }}
       <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
         {{ . | markdownify | emojify }}
       </h2>
     {{ end }}
-    <div class="mt-1 text-2xl">
-      {{ partialCached "band-links.html" . }}
-    </div>
   </header>
   <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
 </article>
