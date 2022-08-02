@@ -14,7 +14,7 @@ dateFormat = "2 August 2022"
 
 [author]
 name = "John Humphries"
-  # image = "img/author.jpg"
+image = "img/author.jpg"
 headline = "Amateur Everything"
 bio = "Guitar; music; software"
   # links = [

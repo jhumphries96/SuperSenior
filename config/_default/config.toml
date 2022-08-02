@@ -1,6 +1,6 @@
 # -- Site Configuration --
-
-# baseURL = "https://jhumphries96.github.io/SuperSenior/"
+theme = "congo"
+baseURL = "https://jhumphries96.github.io/SuperSenior/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
