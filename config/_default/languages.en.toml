@@ -6,7 +6,7 @@ weight = 1
 rtl = false
 
 title = "Super Senior"
-# logo = "img/logo.jpg"
+logo = "img/supersenior_white.svg"
 # description = "Super Senior Website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
@@ -17,16 +17,11 @@ dateFormat = "2 August 2022"
  image = "img/author.jpg"
  headline = "Amateur Everything"
  bio = "Guitar; music; software"
-  # links = [
-  #   { email = "mailto:hello@your_domain.com" },
-  #   { link = "https://link-to-some-website.com/" },
-  #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
-  #   { apple = "https://www.apple.com" },
-  #   { discord = "https://discord.gg/invitecode" },
-  #   { facebook = "https://facebook.com/username" },
-  #   { github = "https://github.com/username" },
-  #   { instagram = "https://instagram.com/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
-  #   { medium = "https://medium.com/username" },
-  #   { youtube = "https://youtube.com/username" },
-  # ]
+ links = [
+ { email = "mailto:jwhumphriesjohn@gmail.com" },
+ { github = "https://github.com/jhumphries96" },
+ { instagram = "https://instagram.com/jhumphries13" },
+ { linkedin = "https://linkedin.com/in/humphries96" },
+ { medium = "https://medium.com/@jwhumphriesjohn" },
+ { youtube = "https://youtube.com/channel/UCO75A-lwK80D7UGj5Za8VaQ" },
+ ]
