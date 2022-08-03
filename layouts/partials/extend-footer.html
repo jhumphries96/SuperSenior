@@ -2,6 +2,7 @@
 {{ with .Site.Author.repolink }}
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
       {{  $url := . }}
+      {{  $name := "github" }}
           <a
             class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
             href="{{ $url }}"
@@ -13,6 +14,5 @@
             class="text-neutral-500"
             href="{{ $url }}"
 	    >See how this site was built.<a/>
-      {{ end }}
   </div>
 {{ end }} 
