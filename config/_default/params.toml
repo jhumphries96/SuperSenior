@@ -26,6 +26,9 @@ enableCodeCopy = false
 [homepage]
   layout = "custom" # valid options: page, profile, custom
   showRecent = false
+  showBand = false
+  showTitle = false
+  showAlbum = true
 
 [article]
   showDate = false
@@ -70,8 +73,8 @@ enableCodeCopy = false
 
 [band]
   name = "Super Senior"
-  image = "img/ss_llfasi.jpg"
-  album = "Loans, Lost Friends and Shut-Ins"
+  album = "img/ss_llfasi.jpg"
+  title = "Loans, Lost Friends and Shut-Ins"
   # links = [
   #   { email = "mailto:john@superseniormusic.com" },
   #   { link = "https://link-to-some-website.com/" },

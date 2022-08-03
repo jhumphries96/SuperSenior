@@ -2,25 +2,31 @@
   class="flex flex-col items-center justify-center text-center h-full"
 >
   <header class="flex flex-col items-center mb-3">
-    {{ with .Site.Params.band.image }}
-      {{ $bandImage := resources.Get . }}
-      {{ if $bandImage }}
-        {{ $bandImage := $bandImage.Fill "640x640" }}
-        <img
-          class="p-1 bg-white border rounded max-w-sm"
-          alt="{{ $.Site.Params.band.name | default "Band" }}"
-          src="{{ $bandImage.RelPermalink }}"
-        />
+    {{ if .Site.Params.homepage.showAlbum | default false }}
+      {{ with .Site.Params.band.album }}
+        {{ $bandAlbum := resources.Get . }}
+        {{ if $bandAlbum }}
+          {{ $bandAlbum := $bandAlbum.Fill "640x640" }}
+          <img
+            class="p-1 bg-white border rounded max-w-sm"
+            alt="{{ $.Site.Params.band.name | default "Band" }}"
+            src="{{ $bandImage.RelPermalink }}"
+          />
+        {{ end }}
       {{ end }}
     {{ end }}
-    <h1 class="text-4xl font-extrabold">
-      {{ .Site.Params.band.name | default .Site.Title }}
-    </h1>
-    {{ with .Site.Params.band.album }}
-      <h2 class="text-2xl text-neutral-500 dark:text-neutral-400">
-        {{ . | markdownify | emojify }}
-      </h2>
-    {{ end }}
+    {{ if .Site.Params.homepage.showBand | default false }}
+      <h1 class="text-4xl font-extrabold">
+        {{ .Site.Params.band.name | default .Site.Title }}
+      </h1>
+    {{ end }}	
+    {{ if .Site.Params.homepage.showTitle | default false }}
+      {{ with .Site.Params.band.title}}
+        <h2 class="text-2xl text-neutral-500 dark:text-neutral-400">
+          {{ . | markdownify | emojify }}
+        </h2>
+      {{ end }}
+    {{ end }}  
   </header>
   <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
 </article>
