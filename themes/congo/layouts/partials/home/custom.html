@@ -5,11 +5,9 @@
     {{ with .Site.Params.band.image }}
       {{ $bandImage := resources.Get . }}
       {{ if $bandImage }}
-        {{ $bandImage := $bandImage.Fill "288x288" }}
+        {{ $bandImage := $bandImage.Fill "640x640" }}
         <img
-          class="mb-2 rounded-full w-36 h-36"
-          width="144"
-          height="144"
+          class="p-1 bg-white border rounded max-w-sm"
           alt="{{ $.Site.Params.band.name | default "Band" }}"
           src="{{ $bandImage.RelPermalink }}"
         />

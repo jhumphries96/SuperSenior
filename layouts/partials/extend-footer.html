@@ -1,21 +1,18 @@
-<div class="flex items-center justify-end">
 {{/* GitHub Link */}}
-{{ with .Site.Author.links }}
+{{ with .Site.Author.repolink }}
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
-    {{ range $links := . }}
-      {{ range $name, $url := $links }}
-        {{ if (eq $name "github") }}
+      {{  $url := . }}
           <a
             class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
             href="{{ $url }}"
             target="_blank"
-            aria-label="{{ $name | title }}"
+            aria-label="{{ Site Repository | title }}"
             rel="me noopener noreferrer"
             >{{ partial "icon.html" $name }}</a>
-	  <p class=text-primary-700>See how this site was built.<p/>
-	{{ end }}
+	  <a 
+            class="text-neutral-500"
+            href="{{ $url }}"
+	    >See how this site was built.<a/>
       {{ end }}
-    {{ end }}
   </div>
 {{ end }} 
-</div>

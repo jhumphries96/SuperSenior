@@ -6,7 +6,7 @@ weight = 1
 rtl = false
 
 title = "Super Senior"
-logo = "img/supersenior_white.jpg"
+logo = "img/supersenior_white.png"
 # description = "Super Senior Website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
@@ -17,6 +17,7 @@ dateFormat = "2 August 2022"
  image = "img/author.jpg"
  headline = "Amateur Everything"
  bio = "Guitar; music; software"
+ repolink = "https://github.com/jhumphries96/SuperSenior"
  links = [
  { email = "mailto:jwhumphriesjohn@gmail.com" },
  { github = "https://github.com/jhumphries96" },
