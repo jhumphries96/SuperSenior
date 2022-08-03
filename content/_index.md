@@ -2,15 +2,9 @@
 title: "Super Senior"
 description: "Loans, Lost Friends, and Shut Ins"
 ---
-# Heading
-
-New Album Out Soon!
-
-<br>
+# New Album Out Soon!
 
 ***
-
-<br>
 
 > I thought it up whilst rounding upon my patients. It occured to me after a recent
 > consult for a rather aged Caucasian female with a minimally impacted femorl neck fracture.
@@ -19,4 +13,4 @@ New Album Out Soon!
 > insulin. Her HTN is reasonably well controlled, so we'll keep her on home meds. Pain
 > management per orthopedics of course.
 >
-> &nbsp;&nbsp;&nbsp;&nbsp;- Jonathon Taylor, ABCDEFG
+> - Jonathon Taylor, Not a Doctor
