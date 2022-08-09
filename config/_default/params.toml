@@ -77,14 +77,8 @@ enableCodeCopy = false
   title = "Loans, Lost Friends and Shut-Ins"
   # links = [
   #   { email = "mailto:john@superseniormusic.com" },
-  #   { link = "https://link-to-some-website.com/" },
-  #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
-  #   { discord = "https://discord.gg/invitecode" },
   #   { facebook = "https://facebook.com/username" },
-  #   { github = "https://github.com/username" },
-  #   { instagram = "https://instagram.com/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
-  #   { medium = "https://medium.com/username" },
-  #   { youtube = "https://youtube.com/username" },
+  #   { instagram = "https://www.instagram.com/super_senior_music/" },
+  #   { youtube = "https://www.youtube.com/channel/UCx5p5p1gmCb3ng9YfqZqP9g" },
   # ]
