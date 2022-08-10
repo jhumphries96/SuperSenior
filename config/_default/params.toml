@@ -75,10 +75,9 @@ enableCodeCopy = false
   name = "Super Senior"
   album = "img/ss_llfasi.jpg"
   title = "Loans, Lost Friends and Shut-Ins"
-  # links = [
-  #   { email = "mailto:john@superseniormusic.com" },
-  #   { apple = "https://www.apple.com" },
-  #   { facebook = "https://facebook.com/username" },
-  #   { instagram = "https://www.instagram.com/super_senior_music/" },
-  #   { youtube = "https://www.youtube.com/channel/UCx5p5p1gmCb3ng9YfqZqP9g" },
-  # ]
+  links = [
+    { email = "mailto:john@superseniormusic.com" },
+    # { apple = "https://www.apple.com" },
+    { instagram = "https://www.instagram.com/super_senior_music/" },
+    { youtube = "https://www.youtube.com/channel/UCx5p5p1gmCb3ng9YfqZqP9g" },
+  ]

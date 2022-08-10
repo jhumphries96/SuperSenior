@@ -26,7 +26,13 @@
           {{ . | markdownify | emojify }}
         </h2>
       {{ end }}
-    {{ end }}  
+    {{ end }}
+    <div class="mt-1 text-2xl">
+      {{ partialCached "band-links.html" . }}
+    </div>
   </header>
   <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+  <div>
+    {{ partial "music-links.html" . }}
+  </div>
 </article>
