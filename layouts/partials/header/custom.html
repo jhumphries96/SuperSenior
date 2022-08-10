@@ -23,9 +23,6 @@
           >{{ .Site.Title | markdownify | emojify }}</a
         >
       {{- end }}
-      <div class="mt-1 text-2xl">
-        {{ partialCached "band-links.html" . }}
-      </div>
       {{ partial "translations.html" . }}
     </div>
   </nav>
