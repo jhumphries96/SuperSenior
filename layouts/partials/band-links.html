@@ -1,19 +1,15 @@
 {{ with .Site.Params.band.links }}
-  <div class="flex;flex-wrap: wrap;justify-content: center;">
+  <div class="flex;flex-wrap: wrap;justify-content: center">
     {{ range $links := . }}
       {{ range $name, $url := $links }}
         <a
-          class="px-1"
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
           href="{{ $url }}"
           target="_blank"
           aria-label="{{ $name | title }}"
           rel="me noopener noreferrer"
-          >
-          <span class="hyperSocialImgContainer">
-            {{ $hyperIcon := resources.Get (print "/images/socialMediaIcons/hyperfollow/" $name ".png")}}
-            <img class="hyperSocialImg" src={{ $hyperIcon.Content | safeHTML }}></img>
-          </span>
-        </a>
+          >{{ partial "icon.html" $name }}</a
+        >
       {{ end }}
     {{ end }}
   </div>
