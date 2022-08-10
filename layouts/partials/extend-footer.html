@@ -1,5 +1,5 @@
 {{/* GitHub Link */}}
-{{ partialCached "band-links.html" }}
+{{ partialCached "band-links.html" . }}
 {{ with .Site.Author.repolink }}
   <div class="flex justify-content-center text-neutral-400 dark:text-neutral-500">
       {{  $url := . }}
