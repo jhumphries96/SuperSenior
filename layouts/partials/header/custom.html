@@ -1,5 +1,5 @@
 <header class="py-6 font-semibold sm:py-10 text-neutral-900 dark:text-neutral print:hidden">
-  <nav class="flex justify-between">
+  <nav class="flex flex-row justify-between">
     {{/* Site logo/title */}}
     <div>
       {{ if .Site.Params.Logo -}}
@@ -23,6 +23,7 @@
           >{{ .Site.Title | markdownify | emojify }}</a
         >
       {{- end }}
+      {{ partialCached "band-links.html" . }}
       {{ partial "translations.html" . }}
     </div>
   </nav>

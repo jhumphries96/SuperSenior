@@ -28,8 +28,5 @@
       {{ end }}
     {{ end }}
   </header>
-  <div class="flex mb-3">
-    {{ partialCached "band-links.html" . }}
-  </div>
   <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
 </article>
