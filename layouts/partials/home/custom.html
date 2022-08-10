@@ -29,12 +29,12 @@
     {{ end }}
   </header>
   <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+</article>
+<article class="flex flex-col space-y-2 items-center justify-center">
   <div>
     {{ partialCached "band-links.html" . }}
   </div>
-  <section class="flex flex-col space-y-3 items-center justify-center">
-    <div>
-      {{ partial "music-links.html" . }}
-    </div>
-  </section>
+  <div>
+    {{ partial "music-links.html" . }}
+  </div>
 </article>
