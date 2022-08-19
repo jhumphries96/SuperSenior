@@ -2,22 +2,26 @@
 title: "Super Senior"
 description: "Loans, Lost Friends, and Shut Ins"
 ---
-# Debut Album Out 08.19.2022!
+# Availible Now!
 
 ***
 
-# Pre-Order Now!
-
-## Pre-Order availible on iTunes & Amazon. Pre-Save availible on Spotify.
+## Find our music on all streaming platforms.
 
 <p>
-{{< button href="https://distrokid.com/hyperfollow/supersenior1/loans-lost-friends-and-shut-ins" target="_blank" >}}
-Spotify Pre-Save
+{{< button href="https://open.spotify.com/album/7B4YcCE3jtP8ojEgobKOyK" target="_blank" >}}
+Spotify
 {{< /button >}}<br>
 
-{{< button href="https://www.amazon.com/dp/B0B8WP87QN/ref=dm_rwp_pur_lnd_preo_unrg" target="_blank" >}}
-Amazon Pre-Order
+{{< button href="https://music.apple.com/us/album/loans-lost-friends-and-shut-ins/1638546592" target="_blank" >}}
+Apple Music
 {{< /button >}}<br>
 
-Look for *Loans, Lost Friends and Shut-Ins* in the iTunes app.
+{{< button href="https://music.youtube.com/playlist?list=OLAK5uy_lyiEMhcCGB_WnUAxl1CvPo_m3AIs4T2kg&feature=share" target="_blank" >}}
+Youtube Music
+{{< /button >}}<br>
+
+{{< button href="https://amazon.com/music/player/albums/B0B8WP87QN?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_fuCH4EctGYlcQFmSx8aF15pbj" target="_blank" >}}
+Amazon
+{{< /button >}}<br>
 </p>
